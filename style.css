@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.container span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media all and (max-width:900px){
+    span{
+       font-size: 10px;
+   }
+}
+#header-logo{
+    width: 60px;
+    height: 60px;
+}
+ @media screen and (max-width:900px) {
+    #boots{
+        font-size: 10px;
+    }
+    #boot{
+        font-size: 20px;
+    }
+
+ }  
+#boots:hover{
+text-decoration: underline;
+}
+#boot:hover{
+    text-decoration: underline;
+}
+#boot-color-tag{
+    font-size: 15px;
+    color: rgb(169, 169, 169);
+}
+#boot-price-tag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+#why-thursday{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.footer-list{
+    list-style-type: none;
+}
+.footer-list-item-heading{
+    font-weight:bold;
+    margin: 5px;
+}
+.footer-list-item{
+    margin: 5px;
+}
+.footer-list a{
+    text-decoration: none;
+    color: rgb(101, 101, 101);
+}
+.footer-list a:hover{
+    text-decoration: underline;
+    color: rgb(101, 101, 101) ;
+}
+.social-icons i{
+    font-size: 25px;
+    margin: 10px;
+    
+}
+.social-icons a{
+    text-decoration: none;
+    color: rgb(101, 101, 101) ;
+}
+.social-icons a:hover{
+    color: rgb(79, 79, 79) ;
+}
